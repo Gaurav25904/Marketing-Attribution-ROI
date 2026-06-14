@@ -2,42 +2,39 @@
 
 ## CPC (Cost Per Click)
 
-Formula:
+**Formula:**
 CPC = Ad Spend / Clicks
 
-Sample Calculation:
+**Sample Calculation:**
 CPC = 16,489,830 / 983,806 = 16.76
 
-Result:
+**Result:**
 CPC = ₹16.76 per click
 
----
 
 ## CAC (Customer Acquisition Cost)
 
-Formula:
+**Formula:**
 CAC = Ad Spend / Conversions
 
-Sample Calculation:
+**Sample Calculation:**
 CAC = 16,489,830 / 736 = 22,404.66
 
-Result:
+**Result:**
 CAC = ₹22,404.66 per acquired customer
 
----
 
 ## ROAS (Return on Ad Spend)
 
-Formula:
+**Formula:**
 ROAS = Revenue / Ad Spend
 
-Sample Calculation:
+**Sample Calculation:**
 ROAS = 341,950 / 16,489,830 = 0.0207
 
-Result:
+**Result:**
 ROAS = 0.0207 (2.07%)
 
----
 
 ## KPI Validation Summary
 
