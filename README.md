@@ -25,5 +25,5 @@ Performed initial data cleaning and prepared the data for analysis.
 Implemented the First-Touch Attribution Model using SQL.
 Generated attribution results and pushed the changes to the repository.
 
-##Overall:
+Overall:
 Completed project setup, data preparation, and successfully built the first attribution model for the Multi-Touch Marketing Attribution & ROI Dashboard.
