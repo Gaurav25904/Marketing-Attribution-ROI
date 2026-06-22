@@ -1,49 +1,126 @@
-# Marketing Attribution and ROI Analysis Project
+# Multi-Touch Marketing Attribution & ROI Dashboard
 
-## Team Members & Roles
+## 📌 Project Overview
 
-- **Gaurav Shinde (Team Lead)** – Data Strategy, Dashboard Planning & Project Integration
-- **Shreya Bibhakar** – Data Cleaning, EDA & Data Quality Assurance
-- **Priti Pawar** – Database Setup, SQL Development & Attribution Modeling
-- **Kousalya N** – Business Analytics, Validation & KPI Framework
+This project focuses on analyzing marketing performance using multi-touch attribution models and building an interactive Power BI dashboard to measure campaign effectiveness and Return on Investment (ROI).
 
-Status: Planning Phase
+The project integrates marketing data from multiple sources and helps identify which channels contribute most to customer conversions.
 
-### Dataset Review
-- Reviewed the dataset columns and structure.
-- Understood the formulas for CPC, CAC, and ROAS.
-- Identified the key fields required for KPI calculations.
+---
 
-### KPI Fields
+## 🎯 Project Objectives
 
-| KPI | Required Fields |
-|------|----------------|
-| CPC | Ad_Spend, Clicks |
-| CAC | Ad_Spend, Converted |
-| ROAS | Revenue, Ad_Spend |
+* Analyze customer journeys across marketing channels.
+* Implement attribution models using SQL.
+* Calculate key marketing KPIs.
+* Build an interactive Power BI dashboard for business insights.
 
-### Notes
-- Reviewed supporting fields such as UTM_Source, Campaign, Timestamp, and User_ID.
-- These fields will be useful for channel and campaign performance analysis.
-##Day 1:
+---
 
-Understood project requirements and defined KPIs (Conversions, Revenue, ROI).
-Selected the dataset and set up the project structure.
+## 🛠️ Technologies Used
 
-##Day 2:
+* SQL (MySQL)
+* Power BI
+* Python (Pandas)
+* Git & GitHub
 
-Collected and explored the dataset.
-Performed initial data cleaning and prepared the data for analysis.
+---
 
-##Day 3:
+## 📊 Key Performance Indicators (KPIs)
 
-Implemented the First-Touch Attribution Model using SQL.
-Generated attribution results and pushed the changes to the repository.
+* CPC (Cost Per Click)
+* CAC (Customer Acquisition Cost)
+* ROAS (Return on Ad Spend)
 
-Overall:
-Completed project setup, data preparation, and successfully built the first attribution model for the Multi-Touch Marketing Attribution & ROI Dashboard.
-## Status
-Phase 1 – Data Ingestion & Planning
+---
 
-## Dataset
-A synthetic marketing attribution dataset has been reviewed, validated, and finalized for Project 1 implementation. The raw dataset is excluded from the repository as per internship guidelines.
+## 📈 Attribution Models Implemented
+
+* First-Touch Attribution
+* Last-Touch Attribution
+* Linear Attribution
+
+---
+
+## 📁 Repository Structure
+
+```text
+Dataset/
+SQL/
+docs/
+Dashboard/
+README.md
+```
+
+---
+
+## 📄 Project Deliverables
+
+* Cleaned Marketing Dataset
+* KPI Validation Reports
+* Attribution SQL Queries
+* Dashboard Wireframes
+* Executive Overview Dashboard Prototype
+* Mid Review Documentation
+
+---
+
+## 📋 Dashboard Pages
+
+1. Executive Overview
+2. Channel Performance
+3. Attribution Analysis
+4. User Journey Analysis
+5. Campaign Performance
+6. Insights & Recommendations
+
+---
+
+## 📅 Project Progress
+
+### Week 1 ✅
+
+* Dataset Cleaning
+* MySQL Setup
+* KPI Validation
+* GitHub Repository Setup
+* Project Board Setup
+
+### Week 2 ✅
+
+* User Journey Sequencing
+* First-Touch Attribution
+* Last-Touch Attribution
+* Linear Attribution
+* Dashboard Wireframe
+* Executive Overview Prototype
+* Documentation and Validation
+
+---
+
+## 👥 Team Members
+
+### Gaurav Shinde
+
+Team Lead | Dashboard Development | Repository Management
+
+### Priti Pawar
+
+SQL Analysis | Attribution Models
+
+### Shreya Bibhakar
+
+Data Cleaning | Documentation
+
+### Kousalya N
+
+KPI Validation | Attribution Validation
+
+---
+
+## 🚀 Current Status
+
+* Week 1: Completed ✅
+* Week 2: Completed ✅
+* Dashboard Development: In Progress 🔄
+* Final Presentation: Pending ⏳
