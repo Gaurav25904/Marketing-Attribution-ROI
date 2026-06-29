@@ -1,3 +1,43 @@
+CREATE DATABASE marketing_attribution;
+
+USE marketing_attribution;
+
+CREATE TABLE Customer_Journey (
+    User_ID VARCHAR(50),
+    Timestamp DATETIME,
+    UTM_Source VARCHAR(100),
+    Campaign VARCHAR(100),
+    Converted INT,
+    Revenue DECIMAL(10,2),
+    Ad_Spend DECIMAL(10,2),
+    Clicks INT,
+    Impressions INT
+);
+
+SHOW TABLES;
+
+DESCRIBE Customer_Journey;
+
+SHOW TABLES;
+
+SELECT COUNT(*) AS total_rows
+FROM `cleaned_marketing_dataset (1)`;
+
+SELECT *
+FROM `cleaned_marketing_dataset (1)`
+LIMIT 10;
+
+SELECT SUM(Revenue) AS total_revenue
+FROM `cleaned_marketing_dataset (1)`;
+
+SELECT SUM(Ad_Spend) AS total_ad_spend
+FROM `cleaned_marketing_dataset (1)`;
+
+SELECT SUM(Converted) AS total_conversions
+FROM `cleaned_marketing_dataset (1)`;
+
+DESCRIBE `cleaned_marketing_dataset (1)`;
+
 USE marketing_attribution;
 SELECT
     User_ID,
